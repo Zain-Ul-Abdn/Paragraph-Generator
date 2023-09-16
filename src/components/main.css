@@ -1,0 +1,40 @@
+
+.para-input {
+    width: 50%;
+}
+
+.generate {
+    transform: translateY(-3px);
+}
+
+.card {
+    position: relative;
+    top: 20px;
+
+}
+
+.card-body,
+.card .copy i {
+    color: black;
+}
+
+
+.card .copy {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card .copy:hover i {
+    color: white;
+}
+
+@media (max-width : 568px){
+
+    .para-input,.generate{
+         display: block;
+         width: 100%;
+         margin: 5px 0;
+    }
+
+}

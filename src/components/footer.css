@@ -1,0 +1,9 @@
+.page-footer{
+ 
+    width: 100vw;
+    font-size: 20px;
+}
+
+.bottom-div{
+    transform: translateY(20em);
+}
